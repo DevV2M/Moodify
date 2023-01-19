@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Grid from '@material-ui/core/Grid';
-import inst_image from '../../images/moodifyimage.png';
-import inst_logo from '../../images/moodifylogo.png';
+import moodify_image from '../../images/moodifyimage.png';
+import moodify_logo from '../../images/moodifylogo.png';
 import './LoginPage.css';
 import fb from '../../images/fb.png';
 import appstore from '../../images/app.png';
@@ -34,11 +34,11 @@ class LoginPage extends Component {
                     <Grid item xs = {6}>
                         <div className="loginpage_main">   
                             <div>   
-                                <img src = {inst_image} width = "454px" />
+                                <img src = {moodify_image} width = "454px" />
                             </div>
                             <div>
                                 <div className ="loginpage_rightcomponent">   
-                                    <img className='loginpage_logo' src = {inst_logo} />
+                                    <img className='loginpage_logo' src = {moodify_logo} />
                                     <div className ="logingpage_signin">   
                                         {
                                             this.state.isLogin ? <SignIn/> : <SignUp/>
