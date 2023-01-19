@@ -21,7 +21,7 @@ class NavBar extends Component {
             <div>
                 <div className='navbar_barContent'>
                     <Grid container>
-                        <Grid item xs={1}></Grid>
+                        <Grid item xs={2}></Grid>
                         <Grid item xs={3}>
                             <img className='navbar_text' src = {moodify_text} width = "105px"/>
                         </Grid>
