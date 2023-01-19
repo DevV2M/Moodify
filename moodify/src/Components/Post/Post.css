@@ -29,7 +29,10 @@
     
 }
 .post_comment{
-    margin: 10px;    
+    margin: 10px;
+    margin-left: 20px;
+    text-align: left;
+     
 }
 .post_commentbox{
     height: 56px;

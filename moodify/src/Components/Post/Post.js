@@ -51,7 +51,7 @@ class Post extends Component {
                 {/* Header */}
                 <div className='post_header'>
                     <Avatar className="post_image" src ={this.state.profileImage} />
-                    <div className="post_username" >{this.state.userName}</div>
+                    <div className="post_username" >{this.props.userName}</div>
                 </div>
                 {/* Image */}
                 <div>
@@ -59,12 +59,12 @@ class Post extends Component {
                 </div>
                 {/* Analytics */}
                 <div>
-                    <div style = {{"marginLeft":"10px"}}> 
+                    <div style = {{"textAlign":"left","marginLeft":"10px"}}> 
                         <img src={love} className='post_reactimage' />
                         <img src={comment} className='post_reactimage' />
                         <img src={share} className='post_reactimage' />
                     </div>
-                    <div style = {{"fontWeight":"bold","marginLeft":"20px "}}>
+                    <div style = {{"textAlign":"left","fontWeight":"bold","marginLeft":"20px"}}>
                         {this.props.likes} likes
                     </div>
                 </div>
